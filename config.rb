@@ -1,3 +1,9 @@
+# Set Rails like settings
+set :images_dir, 'assets/images'
+set :js_dir,     'assets/javascripts'
+set :css_dir,    'assets/stylesheets'
+set :layout,     'layouts/application'
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -19,9 +25,9 @@ page '/*.txt', layout: false
 # General configuration
 
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+configure :development do
+  # activate :livereload
+end
 
 ###
 # Helpers
