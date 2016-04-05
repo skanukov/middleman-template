@@ -4,6 +4,9 @@ set :js_dir,     'assets/javascripts'
 set :css_dir,    'assets/stylesheets'
 set :layout,     'layouts/application'
 
+# Use Autoprefixer
+activate :autoprefixer
+
 ###
 # Page options, layouts, aliases and proxies
 ###
